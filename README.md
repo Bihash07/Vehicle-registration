@@ -1,72 +1,46 @@
 # Vehicle-registration
 
-# Getting Started with Create React App
+<<<<<<< HEAD
+Finally, I have perfected the Srilankan coustmer vehicle registration application using the MERN Stack as a individual project for the SE-Internship program. I required all of this capability. So, I built both the frontend and the backend utilizing Mongo DB, React JS, Express JS, and Node JS in order to manage the CRUD operations and i am using REST API for this project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##### Web : ReactJS
+##### Server: ExpressJS, NodeJs
+##### Database: MongoDB
 
-## Available Scripts
+## what are the function included in this project
 
-In the project directory, you can run:
+> + Create a new user account.
+> + Register, login with validation form.
+> + Update personal and vehicles information.
+> + User can Delete there vehicle Details.
 
-### `npm start`
+> + Create a new user account by Email verification.
+> + Register, login with validation form.
+> + Forgot password, reset password.
+> + Students can create a new note.
+> + Students can Update notes details.
+> + Students can Delete their notes.
+> + Admin can view there user profile Status. 
+> + Update personal information (name, password and avatar)
+> - Change permissions and delete user accounts with Admin.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Install dependencies for server 
+##### `npm install`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Install dependencies for client
+##### cd client 
+##### `npm install`
 
-### `npm test`
+Connect to your mongodb and add info in .config/defult.json and .config/production.json
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Run the client & server with concurrently
+##### `npm run dev`
 
-### `npm run build`
+Run the Express server only
+##### `npm run server`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run the React client only
+##### `npm run client`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##### Server runs on http://localhost:5000 
+##### client on http://localhost:3000
