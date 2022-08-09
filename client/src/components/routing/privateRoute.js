@@ -1,6 +1,9 @@
 import React from "react";
 import { Route, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
+import { Navigate } from 'react-router-dom';
+
+{ component: () => <Navigate to="/404" /> }
 
 const PrivateRoute = ({
   component: Component,

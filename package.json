@@ -10,9 +10,11 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.5.1",
     "react-redux": "^8.0.2",
+    "react-router-dom": "^5.3.3",
     "redux": "^4.2.0",
     "redux-devtools-extension": "^2.13.9",
-    "redux-thunk": "^2.4.1"
+    "redux-thunk": "^2.4.1",
+    "uuid": "^8.3.2"
   },
   "name": "vehicle-registration",
   "description": "",
@@ -34,7 +36,7 @@
     "url": "git+https://github.com/Bihash07/Vehicle-registration.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Bihash07",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Bihash07/Vehicle-registration/issues"

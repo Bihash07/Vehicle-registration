@@ -22,10 +22,6 @@ const VehicleSchema = mongoose.Schema({
     type: String,
     required: true
   },
-  ownerNic: {
-    type: String,
-    required: true
-  },
   insurence: {
     type: String,
     required: true

@@ -44,9 +44,6 @@ router.post(
       check("owner", "Owner's name is required")
         .not()
         .isEmpty(),
-      check("owner Nic", "Owner's NIC name is required")
-        .not()
-        .isEmpty(),
       check("insurence", "Insurence company name  is required")
         .not()
         .isEmpty()
