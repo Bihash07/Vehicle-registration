@@ -1,5 +1,5 @@
 {
-    "mongoURI": "mongodb+srv://Bihash:Bihse71.@cluster01.rfp6yc9.mongodb.net/SE_Intern?retryWrites=true&w=majority",
+    "mongoURI": "ADD_YOUR_MONGO_DB_URL",
     "jwtSecret": "secret"
 }
   
